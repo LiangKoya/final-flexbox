@@ -1,0 +1,209 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.top{
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 64px;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+}
+
+.left{
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right2{
+    margin: 0 16px;
+}
+
+.right,
+.main-left p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 48px;
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.main-left p{
+    margin-bottom: 0;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    padding: 0;
+    width: 88px;
+    margin-top: 16px;
+    border-radius: 6px;
+}
+
+.main-right{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.header .left,
+.main-left{
+    margin-left: 150px;
+}
+
+.right,
+.main-right{
+    margin-right: 150px;
+}
+
+/*above: top*/
+
+.white{
+    padding-bottom: 32px;
+}
+
+.white-title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin: 24px 0;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    margin: 0 250px;
+}
+
+.white ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border-radius: 6px;
+    outline: auto #3882F6;
+}
+
+.discription{
+    width: 150px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+/*above: white area*/
+
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 32px 0;
+}
+
+.quote p{
+    display: flex;
+    justify-content: center;
+    text-align: cen;
+    font-size: 36px;
+    font-weight: light;
+    margin: 0 250px;
+}
+
+.quote .signature{
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 250px;
+}
+
+/*above: quote*/
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-box{
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 24px 16px;
+    margin: 80px 0;
+    gap: 200px;
+}
+
+.bottom p{
+    margin: 0;
+    font-size: 24px;
+}
+
+.bottom-title{
+    font-size: 32px;
+}
+
+.bottom-box .right{
+    outline: auto;
+    margin: 0;
+    height: 0;
+}
+
+.right .button{
+    padding: 8px 24px;
+    margin-right: 48px;
+    flex-shrink: 0;
+}
+
+/*above: bottom*/
+
+.footer{
+    background-color: #1F2937;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
